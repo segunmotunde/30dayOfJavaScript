@@ -1,5 +1,5 @@
 let sentence = "Love is the best thing in this world. Some found their love and some are still looking for their love."
-console.log(sentence.search(/Love/gi));
+console.log(sentence.match(/Love/gi));
 
 let sentence1 = "You cannot end a sentence with because because because is a conjunction"
 console.log(sentence1.match(/because/gi));
