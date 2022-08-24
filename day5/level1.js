@@ -49,7 +49,7 @@ if(itCompanies.indexOf(check) === -1) {
 
 console.log(itCompanies.slice(0,3));
 console.log(itCompanies.slice(-3));
-
+console.log('Hello world!');
 
 
 
