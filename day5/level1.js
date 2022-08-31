@@ -41,6 +41,11 @@ if(itCompanies.indexOf(check) === -1) {
     console.log(check);
 }
 
+for (let i= 0; i < itCompanies.length; i++) {
+  if (itCompanies[i].includes('oo')) {
+    console.log(itCompanies[i]);
+  }
+}
 
 
 
